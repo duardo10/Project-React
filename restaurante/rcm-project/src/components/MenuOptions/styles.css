@@ -1,0 +1,31 @@
+.options {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-out;
+    transform: translateX(-100%);
+    overflow-y: auto;
+}
+
+.options.open {
+    transform: translateX(0);
+}
+
+.options ul {
+    list-style: none;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.options ul li {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

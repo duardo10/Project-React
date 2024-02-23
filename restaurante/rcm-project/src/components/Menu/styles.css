@@ -1,0 +1,12 @@
+body {
+    background-color: #eecba3;
+}
+
+.menu {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.845);
+    color: white;
+    position: relative;
+}

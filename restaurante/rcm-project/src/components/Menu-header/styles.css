@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.544);
+    color: white;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    margin: 0;
+    text-align: center;
+    flex: 1; 
+}
