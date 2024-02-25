@@ -9,4 +9,4 @@ export const MenuHeader = ({ isOpen, clickedMenu }) => {
             <h4>Delivery Ed & Cris</h4>
         </div>
     );
-} 
+}; 
