@@ -20,4 +20,8 @@ export const GlobalStyles = createGlobalStyle`
     h1 {
         font-family: ${({ theme }) => theme.font.family.secondary};
     }
+
+    h3 {
+        font-size: 1rem;
+    }
 `;
